@@ -5,6 +5,7 @@ description = "Lightweight research lab workflow, manager for tracking experimen
 authors = [
     {name = "CS-Enthusiast",email = "EEkata43@gmail.com"}
 ]
+
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
@@ -17,6 +18,8 @@ dependencies = [
     "argon2-cffi (>=25.1.0,<26.0.0)"
 ]
 
+[tool.poetry]
+package-mode = false
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]

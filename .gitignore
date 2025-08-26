@@ -1,13 +1,20 @@
+# Python cache 
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Local DB files (SQLite)
 *.sqlite3
+
+# Virtual environment & env files
 .env
-.venv
+.venv/
 .env.*
-.poetry
+
+# IDE/editor settings
 .idea/
 .vscode/
+
+# Logs
 *.log
-*.db
